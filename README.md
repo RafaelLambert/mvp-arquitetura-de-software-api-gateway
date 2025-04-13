@@ -83,11 +83,11 @@ O projeto está preparado para ser integrado com um front-end web, servindo como
 1. Clone este repositório e os repositórios dos outros microsserviços relacionados (caso ainda não tenha feito):
 
    ```bash
-   git clone <REPOSITORIO-DO-GATEWAY>
-   git clone <REPOSITORIO-DO-STUDENT>
-   git clone <REPOSITORIO-DO-GRADE>
-   git clone <REPOSITORIO-DO-AUTH>
-   git clone <REPOSITORIO-DO-FRONT>
+   git clone https://github.com/RafaelLambert/mvp-arquitetura-de-software-api-escola-front.git
+   git clone https://github.com/RafaelLambert/mvp-arquitetura-de-software-api-gateway.git
+   git clone https://github.com/RafaelLambert/mvp-arquitetura-de-software-api-auth.git
+   git clone https://github.com/RafaelLambert/mvp-arquitetura-de-software-api-grade.git
+   git clone https://github.com/RafaelLambert/mvp-arquitetura-de-software-api-student.git
    ```
 2. Certifique-se de que o `docker-compose.yml` aponta corretamente para os diretórios dos serviços.
 3. No diretório do gateway, execute:
